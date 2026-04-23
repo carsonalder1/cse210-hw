@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Hello! Please put in the grade percentage you got for the class: ");
-        int grade = int.Parse(Console.ReadLine());
+        float grade = float.Parse(Console.ReadLine());
         if (grade >= 90)
             {
                 Console.WriteLine("You got an A ");
